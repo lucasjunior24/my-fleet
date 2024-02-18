@@ -1,4 +1,5 @@
-import { ThemeProvider } from "styled-components/native";
+import { ThemeProvider } from "styled-components";
+
 import { StatusBar } from "react-native";
 
 import {
@@ -8,15 +9,19 @@ import {
 } from "@expo-google-fonts/roboto";
 
 import { SignIn } from "./src/screens/SignIn";
-import theme from "./src/theme";
+import theme from "./src/theme/index";
 import { Loading } from "./src/components/Loading";
 
 export default function App() {
-  const [fontLoaded] = useFonts({ Roboto_400Regular, Roboto_700Bold });
+  const [fontLoaded] = useFonts({
+    Roboto_400Regular,
+    Roboto_700Bold,
+  });
 
   if (!fontLoaded) {
     return <Loading />;
   }
+
   return (
     <ThemeProvider theme={theme}>
       <StatusBar
