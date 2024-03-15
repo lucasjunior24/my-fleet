@@ -28,7 +28,18 @@
       "favicon": "./assets/favicon.png"
     },
     "plugins": [
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.lucasdesouzaesousa_fleet"
+        }
+      ],
       "expo-font"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "804b4f75-02f9-497f-b7c6-cbd2516d3e14"
+      }
+    }
   }
 }

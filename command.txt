@@ -1,1 +1,17 @@
 com.lucasdesouzaesousa_fleet
+
+font duplicada
+find node_modules -type d -name expo-font
+rm -rf ./node_modules/expo/node_modules/expo-font/
+
+gerar build local
+npx expo run:android
+
+
+gerar chaves
+cd android && ./gradlew signinReport && cd ..
+
+
+npx expo prebuild
+
+npx expo run:android
