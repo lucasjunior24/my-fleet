@@ -9,7 +9,7 @@ export const Container = styled.ImageBackground`
 
 export const Title = styled.Text`
   color: ${({ theme }) => theme.COLORS.BRAND_LIGHT};
-  font-size: ${({ theme }) => theme.FONT_SIZE.XXXL}px;
+  font-size: ${({ theme }) => theme.FONT_SIZE.XXXL};
   font-family: ${({ theme }) => theme.FONT_FAMILY.BOLD};
 
   text-align: center;
@@ -17,7 +17,7 @@ export const Title = styled.Text`
 
 export const Slogan = styled.Text`
   color: ${({ theme }) => theme.COLORS.GRAY_100};
-  font-size: ${({ theme }) => theme.FONT_SIZE.MD}px;
+  font-size: ${({ theme }) => theme.FONT_SIZE.MD};
   font-family: ${({ theme }) => theme.FONT_FAMILY.REGULAR};
 
   text-align: center;

@@ -11,15 +11,19 @@
   "dependencies": {
     "@expo-google-fonts/roboto": "^0.2.3",
     "@react-native-google-signin/google-signin": "^11.0.0",
+    "@realm/react": "^0.6.2",
     "expo": "^50.0.13",
     "expo-dev-client": "~3.3.10",
     "expo-font": "~11.10.3",
     "expo-splash-screen": "~0.26.4",
     "expo-status-bar": "~1.11.1",
     "expo-system-ui": "~2.9.3",
+    "phosphor-react-native": "^2.0.0",
     "react": "18.2.0",
     "react-native": "0.73.5",
     "react-native-gesture-handler": "~2.14.0",
+    "react-native-svg": "14.1.0",
+    "realm": "^12.6.2",
     "styled-components": "^5.3.9"
   },
   "devDependencies": {
