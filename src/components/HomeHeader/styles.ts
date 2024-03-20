@@ -1,5 +1,6 @@
 // rnscs
 import styled from "styled-components/native";
+import { Image } from "expo-image";
 
 export const Container = styled.View`
   width: 100%;
@@ -25,4 +26,10 @@ export const Name = styled.Text`
   color: ${({ theme }) => theme.COLORS.GRAY_100};
   font-size: ${({ theme }) => theme.FONT_SIZE.LG};
   font-family: ${({ theme }) => theme.FONT_FAMILY.BOLD};
+`;
+
+export const Picture = styled(Image)`
+  width: 54px;
+  height: 54px;
+  border-radius: 7px;
 `;
